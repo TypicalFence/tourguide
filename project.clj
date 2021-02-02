@@ -6,7 +6,7 @@
                  [compojure "1.6.1"]
                  [ring/ring-defaults "0.3.2"]
                  [org.jmdns/jmdns "3.5.6"]
-                 [org.slf4j/slf4j-simple "1t.7.9"]]
+                 [org.slf4j/slf4j-simple "1.7.9"]]
   :plugins [[lein-ring "0.12.5"]]
   :ring {:handler tourguide.handler/app}
   :profiles
